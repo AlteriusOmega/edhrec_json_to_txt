@@ -8,4 +8,4 @@ This is a Python program to take JSON card lists output from EDHRec.com for a gi
 That's it! Now you will have separate card lists txt files for each of the lists, as well as one big list of all cards called Flat Cardlist 
 
 # "I don't want to deal with Python!"
-If don't want to deal with installing Python, just click the green <> Code button --> Download ZIP, then unzip the .zip file, go into dist, and just run edhrec_json_to_txt.exe
+If you don't want to deal with installing Python, just click the green <> Code button --> Download ZIP, then unzip the .zip file, go into dist, and just run edhrec_json_to_txt.exe
