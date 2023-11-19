@@ -1,11 +1,11 @@
 # edhrec_json_to_txt
-This is a Python program to take JSON card lists output from EDHRec.com for a given commander and convert the card lists to txt files that can be used with services like Moxfield, MPCFill and more. There is an executable you can easily run in the dist folder so you don't even need to install Python
+This is a Python program to get all of the cardlists for a given commander from EDHRec and save them as txt files that can be uploaded to sites like Moxfield and MPC fill.
 ## How to use
-1. First you will need a JSON (JavaScript Object Notation) card list file for your commander from EDHRec. You get this by going to this URL: https://json.edhrec.com/pages/commanders/YOUR-COMMANDER-NAME.json
-* **Replace "YOUR-COMMANDER-NAME" with your commander name using dashes instead of spaces.** For example, Zaxara The Exemplary would be https://json.edhrec.com/pages/commanders/zaxara-the-exemplary.json
-3. Now just run the edhrec_json_to_txt program. It will prompt you to select the JSON file then select the folder you want to save the card lists to
+1. Download the code. If you don't know anything about Git or Github, just click the green <> Code button and download the zip then extract it. If you know Git then feel free to clone or even fork the repo
+2. Run the program. If you don't know Python, just go into dist and run the executable. If you do know Python then run the python file
+3. Type in your commander name. Make sure the spelling and spaces are correct. Symbols and capitalization don't matter.
+4. Select the folder you want to save the cardlists in
 
-That's it! Now you will have separate card lists txt files for each of the lists, as well as one big list of all cards called Flat Cardlist 
+That's it! It will automatically save every different cardlist from EDHRec for your commander including a huge flattened cardlist containing every card called Flat Cardlist. It even creates and Info file with information about the lists which currently shows the card counts for each list.
 
-# "I don't want to deal with Python!"
-If you don't want to deal with installing Python, just click the green <> Code button --> Download ZIP, then unzip the .zip file, go into dist, and just run edhrec_json_to_txt.exe
+Now you can take these lists and upload them to Moxfield, MPC Fill and other websites to build your deck or order proxies!
